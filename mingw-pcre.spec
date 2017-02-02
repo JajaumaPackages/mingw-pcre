@@ -2,7 +2,7 @@
 
 Name:		mingw-pcre
 Version:	8.38
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	MinGW Windows pcre library
 
 Group:		Development/Libraries
@@ -236,6 +236,9 @@ find $RPM_BUILD_ROOT -name "*.la" -delete
 
 
 %changelog
+* Thu Feb 02 2017 Jajauma's Packages <jajauma@yandex.ru> - 8.38-2
+- Rebuild with GCC 5.4.0
+
 * Sat Feb  6 2016 Erik van Pienbroek <epienbro@fedoraproject.org> - 8.38-1
 - Update to 8.38
 - Fixes various CVE's:
